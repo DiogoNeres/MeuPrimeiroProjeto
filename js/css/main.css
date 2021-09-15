@@ -1,6 +1,11 @@
 body{
+    background-color: black;
     width: 100%;
     height: 100%;
+    margin: 0 auto;
+}
+ul{
+    padding: 0px!important;
 }
 
 .menu-principal{
@@ -19,10 +24,64 @@ main{
     width: 75%;
     }
 .redes-sociais ul li{
+    margin-left: 20px;    
     display: inline-block;
+    float: left;
     
 }
 .redes-sociais{
     width: 20%;    
     float: right;
+}
+.header-2{
+    background-color: black;
+    width: 980px;
+    margin: 0 auto; 
+    padding: 16px;   
+}
+.menu-urls{
+    height: 80px;
+    border-bottom: 3px solid white;
+}
+.menu ul li {
+    display: inline-block;
+    color: #8b8b8b;
+    margin-left: 8px;
+    height: 50px;
+}
+.menu ul li:hover{
+    border-bottom: 3px solid #eb1e0f;
+}
+.menu ul li a:hover{
+    color: #eb1e0f
+}
+.menu ul li a {    
+    color: #0bfafa;
+    text-decoration: none;
+}
+.menu{
+    width: 70%;
+    float: left;
+}
+.busca{
+    text-align-last: center;
+    width: 30%;
+    float: right;
+    margin-top: 15px;
+}
+.busca input{
+    background-image: url("../img/cartoon029.png");
+    background-repeat: no-repeat;
+    height: 36px;
+    padding: 12px;
+    width: 190px;
+    margin-top: 10px;
+    background-position: 96%;
+    border: 1px solid gray;
+
+}
+.col-100{
+    width: 100%;
+    float: left;
+    position: relative;
 }
