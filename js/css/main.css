@@ -26,7 +26,7 @@ main{
 .redes-sociais ul li{
     margin-left: 20px;    
     display: inline-block;
-    float: left;
+    float:left;
     
 }
 .redes-sociais{
@@ -81,7 +81,7 @@ main{
 
 }
 .col-100{
-    width: 50%;
-    float: left;
+    width: 60%;
+    float:left;
     position: relative;
 }
