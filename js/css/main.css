@@ -24,14 +24,14 @@ main{
     width: 75%;
     }
 .redes-sociais ul li{
-    margin-left: 20px;    
-    display: inline-block;
-    float:left;
-    
+    margin-left: 2px;    
+    display:inline-block;
+    float:none;
+    list-style: none;   
 }
 .redes-sociais{
     width: 20%;    
-    float: right;
+    float: left;
 }
 .header-2{
     background-color: black;
@@ -56,7 +56,7 @@ main{
     color: #eb1e0f
 }
 .menu ul li a {    
-    color: #0bfafa;
+    color: #09f0f0;
     text-decoration: none;
 }
 .menu{
@@ -70,7 +70,7 @@ main{
     margin-top: 15px;
 }
 .busca input{
-    background-image: url("../img/search.png");
+    background-image: url("../img/icons8-pesquisar-24.png");
     background-repeat: no-repeat;
     height: 26px;
     padding: 12px;
@@ -78,10 +78,25 @@ main{
     margin-top: 0px;
     background-position: 96%;
     border: 1px solid gray;
+    float:left;
 
 }
 .col-100{
     width: 60%;
-    float:left;
+    float:none;
     position: relative;
+}
+button.slick-prev{
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url(../img/icons8-left-arrow-64.png);
+    top: 35%;
+    left: 0;
+    
+    
 }
